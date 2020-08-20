@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css" >
+
+    <title>Bootstrap Layout</title>
+  </head>
+  <body>
+
+  
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  			<div class="container">
+  				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Team.html">Our Team</a>
+          <a class="dropdown-item" href="Gallery.html">Gallery</a>
+          <a class="dropdown-item" href="Blog.html">Blog</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+    </ul>
+    
+  </div>
+  			</div>
+  		</nav>
+  	
+
+
+  		<section class="billing-section">
+  			<div class="container">
+  				<div class="row justify-content-center">
+  				<div class="col-xl-10 text-center">
+  						<img src="images/bootstrap-solid.svg"  class="img-fluid" style="width: 90px">
+  						<h1>Checkout form</h1>
+  						<p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+  				</div>
+  					<div class="col-xl-9">
+  						<h2>Billing address</h2>
+  						<form>
+  							<div class="row">
+							    <div class="col-xl-6">
+							    	<div class="form-group">
+								    	<label for="fname">First Name</label>
+								    	<input type="text" class="form-control" id="fname" 	>
+								    	
+								    </div>
+								</div>
+								<div class="col-xl-6">
+							    	<div class="form-group">
+								    	<label for="fname">Last Name</label>
+								    	<input type="text" class="form-control" id="fname" >
+								    </div>
+								</div> 
+
+								<div class="col-xl-12">
+							    	<label for="inlineFormInputGroupUsername2">Username</label>
+  									<div class="input-group mb-2 mr-sm-2">
+    								<div class="input-group-prepend">
+      								<div class="input-group-text">@</div>
+    							</div>
+    								<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+  									</div>
+								</div>
+
+								<div class="col-xl-12">
+							    	<div class="form-group">
+								    	<label for="Email">Enail Adress (optional)</label>
+								    	<input type="Email" class="form-control" id="Email Adress" >
+								    </div>
+								</div>
+
+							<div class="col-xl-4">
+											<form class="form-inline">
+								  <label class="" for="inlineFormCustomSelectPref">Country</label>
+								  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+								    <option selected>Choose...</option>
+								    <option value="1">One</option>
+								    <option value="2">Two</option>
+								    <option value="3">Three</option>
+								  </select>
+							</div>
+								<div class="col-xl-3">
+									<form class="form-inline">
+								  <label class="" for="inlineFormCustomSelectPref">Country</label>
+								  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+								    <option selected>Choose...</option>
+								    <option value="1">One</option>
+								    <option value="2">Two</option>
+								    <option value="3">Three</option>
+								  </select>
+								</div>
+								<div class="col-xl-2">
+							    	<div class="form-group">
+								    	<label for="fname">Zip</label>
+								    	<input type="text" class="form-control" id="fname" >
+								    </div>
+								</div>
+
+						<div class="container">
+							<div class="custom-control custom-radio py-1">
+								<hr>
+  									<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  									<label class="custom-control-label" for="customRadio1">Shipping address is the same as my billing address</label>
+									</div>
+									<div class="custom-control custom-radio">
+
+  									<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+  									<label class="custom-control-label" for="customRadio2">Save this information for next time</label>
+									</div>
+								<hr>	
+
+  							</div>
+						</div>
+						<div class="col-xl-12">
+							<input type="submit" value="Continue to Checkout" class="btn btn-primary btn-lg btn-block" name="">
+						</div>
+						
+
+								
+  						</form>
+  					</div>
+  					<div class="col-xl-3">
+  						<h2>Your cart</h2>
+  						<ul class="list-group">
+  							<li class="list-group-item">Product name</li>
+  							<li class="list-group-item">Second product</li>
+  							<li class="list-group-item">Third item</li>
+  							<li class="list-group-item">Promo code</li>
+  							<li class="list-group-item">Total (USD)
+</li>
+						</ul>
+  					</div>
+  				</div>
+  			</dev>
+  		</section>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
